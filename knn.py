@@ -8,4 +8,3 @@ knn = KNeighborsClassifier(n_neighbors = 8)
 knn.fit(x_train, y_train)
 
 y_pred = knn.predict(x_test)
-vdsfevegetevev
