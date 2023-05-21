@@ -1,3 +1,9 @@
+#Part of DAtacamp notes from the coursee ML with Scikit learn
+
+#Classifier models = KNN
+
+
+
 from sklearn.model_selection import train_test_split
 
 x_train, y_train, x_test, y_test = train_test_split(X, y, test_size=0.3, random_state=21, stratify=y)
