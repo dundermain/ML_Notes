@@ -3,7 +3,7 @@
 #Large coefficent or large "a" can lead to overfitting. So we need a way to control this. Which is why we will penalise large "a" using ridge regression
 
 
-#In ridge regression we modify the loss function from simple OLS to OLS+ (alpha* a^2). Here alpha is hyperparameter.
+#In ridge regression we modify the loss function from simple OLS to OLS+ (alpha* a^2). Here alpha is hyperparameter and a^2 is square of each coefficient
 
 #alpha = 0 is overfitting and high alpha will lead to underfitting
 
