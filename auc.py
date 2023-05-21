@@ -13,3 +13,11 @@ logreg.fit(x_train, y_train)
 y_pred = logreg.predict_proba(x_test)[:, 1]
 
 roc_auc_score(y_test, y_pred)
+
+#AUC can also be used for cross validation scoring
+
+from sklearn.model_selection import cross_val_score
+
+cv_scores = cross_val_score(logreg, x, y, cv = 5, scoring='roc_auc')
+
+print(cv_scores)
